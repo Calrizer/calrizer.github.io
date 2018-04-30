@@ -1,0 +1,43 @@
+
+html, body {
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.title {
+
+  font-family: "proxima-nova";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 0;
+
+}
+
+.links {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-family: "proxima-nova";
+  font-size: 20px;
+
+}
+
+.wrapper {
+
+  margin-left: 30px;
+  margin-top: 20px;
+
+}
+
+.mainimage {
+
+  margin: auto;
+
+  display: block;
+
+}
