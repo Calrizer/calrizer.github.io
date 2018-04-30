@@ -35,6 +35,13 @@ html, body {
 
 }
 
+.social img {
+
+  display: inline-block;
+  margin-right: 12px;
+
+}
+
 .main {
 
   height: 100%;
