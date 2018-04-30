@@ -27,17 +27,24 @@ html, body {
 
 }
 
-.wrapper {
+.sidebar {
 
   margin-left: 30px;
   margin-top: 20px;
 
 }
 
+.main {
+
+  height: 100%;
+
+}
+
 .mainimage {
 
   margin: auto;
-
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center
 
 }
