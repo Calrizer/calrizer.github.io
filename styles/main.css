@@ -5,6 +5,7 @@ html, body {
   margin: 0;
   padding: 0;
 
+
 }
 
 .title {
@@ -90,6 +91,21 @@ html, body {
 
 }
 
+.title a {
+
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.title a:hover {
+
+     color:#000000;
+     text-decoration:none;
+     cursor:pointer;
+
+}
+
 .sidebar {
 
   margin-left: 30px;
@@ -116,17 +132,51 @@ html, body {
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: center
-
+  justify-content: center;
 
 }
 
 .imgAnimate {
-
-    -webkit-animation-delay: 1.5s;
+  
     -webkit-animation-duration: 2s;
 
 }
 
-.appleLinks a {color:#000000; text-decoration: none;}
-.appleLinksWhite a {color:#ffffff; text-decoration: none;}
+.profileImageView {
+
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+
+.profileImage {
+
+  border-radius: 50px;
+
+}
+
+.aboutText {
+
+  font-family: "proxima-nova";
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+
+}
+
+.appleLinks a {
+
+  color:#000000;
+  text-decoration: none;
+
+}
+
+.appleLinksWhite a {
+
+  color:#ffffff;
+  text-decoration: none;
+}
