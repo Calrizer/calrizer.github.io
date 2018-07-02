@@ -137,7 +137,7 @@ html, body {
 }
 
 .imgAnimate {
-  
+
     -webkit-animation-duration: 2s;
 
 }
@@ -164,7 +164,16 @@ html, body {
   font-size: 20px;
   padding-left: 100px;
   padding-right: 100px;
+  padding-bottom: 50px;
   text-align: center;
+
+}
+
+#contentView {
+
+  padding-top: 50px;
+  overflow: auto;
+  max-height: 100vh;
 
 }
 
